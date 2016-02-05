@@ -24,13 +24,14 @@ III) Model - SVM
 
 
 IV) Model - Logistic regression
-	1) Train and get predictions for test data: logistic_image_features_words_test.m
-        - This file trains the Logistic regression on the training data and generates predictions for the test data.
-        - The predictions are written to : submit_logistic_image_features_words.txt
+
+        	1) Train and get predictions for test data: logistic_image_features_words_test.m
+               - This file trains the Logistic regression on the training data and generates predictions for the test data.
+               - The predictions are written to : submit_logistic_image_features_words.txt
 		
 		
-    2) Helper functions:
-        a) cross_validation_generic.m ---> function [error] = cross_validation_generic(X_s, Y, error_ml_technique, number_of_cvs)
+                 2) Helper functions:
+		  a) cross_validation_generic.m ---> function [error] = cross_validation_generic(X_s, Y, error_ml_technique, number_of_cvs)
             - cross_validation_generic performs crosvalidation on feature matrix X_s and label vector Y.
             - It uses the function handle error_ml_technique(trainingPoints,trainingLabels,testingPoints,actualTestingLabels)
               that returns the error betwen predictions for testingPoints and actualTestingLabels
@@ -52,7 +53,8 @@ IV) Model - Logistic regression
 		
 		
 V) Model - Naive Bayes
-	1) Train and get predictions for test data: nb_test.m
+
+					1) Train and get predictions for test data: nb_test.m
         - This file trains the naive bayes classifier on the training data and generates predictions for the test data.
         - The predictions are written to : submit_nb.txt
 		
@@ -70,8 +72,9 @@ V) Model - Naive Bayes
 		
 		
 
-VI) Model - Gaussian Mixture Model 
-	1) Train and get predictions for test data: gmm_test.m
+VI) Model - Gaussian Mixture Model
+
+				1) Train and get predictions for test data: gmm_test.m
         - This file trains the gaussian mixture model on the training data and generates predictions for the test data.
         - The predictions are written to : submit_gmm.txt
 		
