@@ -5,20 +5,20 @@ All the models are under their respective folders.
 
 I) Model - Group Lasso  
 
-1) To train and test the model run the file - "group_lasso_train_and_test.m". Running this scipt results in a file called "submit.txt" with the predictions on the test set.
-2) The Lambda values used for this method were figured out by cross validation. Look at the file "group_lasso_cross_validation.m" 
+          1) To train and test the model run the file - "group_lasso_train_and_test.m". Running this scipt results in a file called "submit.txt" with the predictions on the test set.
+         2) The Lambda values used for this method were figured out by cross validation. Look at the file "group_lasso_cross_validation.m" 
 
 
 
 II) Model - Kernel Regression 
-1) To test the model run the file - "kernel_regression_test.m". Running this scipt results in a file called "submit.txt" with the predictions on the test set.
-2) The sigma value used for this method was figured out by cross validation. Look at the file "kernel_regression_cross_validation.m" 
+          1) To test the model run the file - "kernel_regression_test.m". Running this scipt results in a file called "submit.txt" with the predictions on the test set.
+          2) The sigma value used for this method was figured out by cross validation. Look at the file "kernel_regression_cross_validation.m" 
 
 
 
 III) Model - SVM 
 
-1) To train and test the model run the file - "svm_train_and_test.m". Running this scipt results in a file called "submit.txt" with the predictions on the test set.
+      1) To train and test the model run the file - "svm_train_and_test.m". Running this scipt results in a file called "submit.txt" with the predictions on the test set.
 
 
 
