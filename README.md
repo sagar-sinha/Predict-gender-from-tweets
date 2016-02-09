@@ -1,3 +1,5 @@
+Description - In the quest to find the best model for the task of predicting the gender of a user from his or her tweets and profile picture we try and implement all the well known methods. Discriminative methods like Logistic regression and Support Vector Machine, generative methods like Naive Bayes and Gaussian Mixture model, instance based method like - Kernel regression, a regularization method like Group Lasso and a set of decision trees using LogitBoost. The best result is achieved by the ensemble of decision trees with an accuracy of 89.45 % on a test set of 5000 samples.
+
 NOTE : Before running any of the following models, load all the training and test data. The script "Load_X_and_Y.m" does this easily for you. You may want to change the paths though. The programs assume that the data is present 
 in the workspace. Also, we have not used any test data for training purposes. No PCA on pool set of training and test data is required for training purpose.
 
